@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: 'Exo', sans-serif;
+}
+header {
+    background-color: rgb(0, 155, 108);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+header li {
+    list-style: none;
+}
+header a {
+    color: white;
+    font-style: normal;
+}
+h1 {
+    margin: 0;
+}
+.menu {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+.imagem {
+    width: 60%;
+}
+.texto {
+    width: 40%;
+    padding: 25px;
+}
+.imagem img {
+    width: 100%;
+}
+#como-surgiu {
+    flex-direction: row-reverse;
+}
+
+#como-funciona{
+    flex-direction: row-reverse;
+}
+
+#contato {
+    background-color: rgb(0, 155, 108);
+    justify-content: center;
+
+}
+#contato img {
+    width: 10%;
+}
